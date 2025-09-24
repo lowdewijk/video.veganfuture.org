@@ -7,7 +7,7 @@ export default function Home() {
       </p>
       <div className="py-2">
         <iframe
-          src="https://www.youtube.com/embed/uxhL2lsgokY?si=1CMtFfuaLlPGK9IV"
+          src="https://iframe.mediadelivery.net/embed/245757/2a6340bf-0355-4387-8ce1-1a8e6ff74dfe?autoplay=true&amp;loop=false&amp;muted=false&amp;preload=true&amp;captions=en"
           allowFullScreen
           className="w-full md:h-96 lg:h-[500px]"
         />
