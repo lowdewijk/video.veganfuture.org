@@ -12,7 +12,17 @@ export default function Home() {
           className="w-full md:h-96 lg:h-[500px]"
         />
       </div>
-
+      <p className="pt-8 pb-2">
+        Or watch this documentary. It reveals <em>what you're truly paying for</em> as a customer of modern animal agriculture.
+      </p>
+      <div className="pb-4">
+        <iframe
+          src="https://iframe.mediadelivery.net/embed/135301/89232d42-e290-40fc-917d-5669478ee73b?autoplay=true&amp;loop=false&amp;muted=false&amp;preload=true&amp;captions=au&amp;t=40s"
+          allowFullScreen
+          className="w-full md:h-96 lg:h-[500px]"
+        />
+      </div>
+      <div className="py-6 text-3xl">Ready for a change?</div>
       <div className="flex flex-col lg:flex-row justify-center items-stretch gap-4">
         <div className="flex-1 min-h-[200px] p-4 bg-gray-100 border border-gray-300 rounded-lg shadow-md">
           <div className="pb-4">
