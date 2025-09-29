@@ -66,7 +66,7 @@ export default function Home() {
               width={190}
             />
           </a>
-          <h2 className="pt-4">Free registered nutritionists help you out</h2>
+          <h2 className="pt-4">Registered dietitians help you out for free</h2>
         </div>
       </div>
     </>
