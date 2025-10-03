@@ -7,12 +7,22 @@ export default function Home() {
       </p>
       <div className="py-2">
         <iframe
-          src="https://www.youtube.com/embed/uxhL2lsgokY?si=1CMtFfuaLlPGK9IV"
+          src="https://iframe.mediadelivery.net/embed/245757/2a6340bf-0355-4387-8ce1-1a8e6ff74dfe?autoplay=true&amp;loop=false&amp;muted=false&amp;preload=true&amp;captions=en"
           allowFullScreen
           className="w-full md:h-96 lg:h-[500px]"
         />
       </div>
-
+      <p className="pt-8 pb-2">
+        Or watch this documentary. It reveals <em>what you're truly paying for</em> as a customer of modern animal agriculture.
+      </p>
+      <div className="pb-4">
+        <iframe
+          src="https://iframe.mediadelivery.net/embed/135301/89232d42-e290-40fc-917d-5669478ee73b?autoplay=true&amp;loop=false&amp;muted=false&amp;preload=true&amp;captions=au&amp;t=40s"
+          allowFullScreen
+          className="w-full md:h-96 lg:h-[500px]"
+        />
+      </div>
+      <div className="py-6 text-3xl">Ready for a change?</div>
       <div className="flex flex-col lg:flex-row justify-center items-stretch gap-4">
         <div className="flex-1 min-h-[200px] p-4 bg-gray-100 border border-gray-300 rounded-lg shadow-md">
           <div className="pb-4">
@@ -56,7 +66,7 @@ export default function Home() {
               width={190}
             />
           </a>
-          <h2 className="pt-4">Free registered nutritionists help you out</h2>
+          <h2 className="pt-4">Registered dietitians help you out for free</h2>
         </div>
       </div>
     </>
